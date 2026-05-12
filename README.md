@@ -1,22 +1,22 @@
-# ?? fast-food
+﻿# 🍔 fast-food
 
 Order management system for fast food restaurants developed in Visual Basic .NET with Windows Forms.
 
-## ?? Description
+## 📋 Description
 
 **fast-food** is a desktop application designed to facilitate order management in fast food restaurants. It allows waiters to take orders efficiently, assign tables, and generate invoices quickly and intuitively.
 
-## ? Key Features
+## ✨ Key Features
 
 - **Table Management**: Manages up to 9 tables simultaneously
 - **Waiter Assignment**: Assigns specific waiters to each table
 - **Order Taking**: Intuitive interface for selecting menu items
 - **Billing System**: Automatically calculates the total bill
 - **Visual Status**: Color indicators to identify table status
-  - ?? Beige: Available table
-  - ?? Green: Occupied table with assigned waiter
+  - 🟡 Beige: Available table
+  - 🟢 Green: Occupied table with assigned waiter
 
-## ??? Available Menu
+## 🍽️ Available Menu
 
 ### Main Dishes
 - **Simple Chicken** - $6,000
@@ -37,29 +37,29 @@ Order management system for fast food restaurants developed in Visual Basic .NET
 - **Non-Returnable 600ml** - $1,000
 - **7 Ounce Cup** - $700
 
-## ?? Technologies Used
+## 💻 Technologies Used
 
 - **Language**: Visual Basic .NET
 - **Framework**: .NET 8.0
 - **UI Framework**: Windows Forms
 - **IDE**: Visual Studio 2022
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 fast-food/
-??? Form1.vb (COMIDAS1)      # Main screen - Table management
-??? Form2.vb (COMIDAS2)      # Order taking screen
-??? Form3.vb (COMIDAS3)      # Billing screen
-??? My Project/              # Application configuration
-?   ??? Application.myapp
-?   ??? Application.Designer.vb
-??? fast-food.vbproj         # Project file
-??? fast-food.sln            # Visual Studio solution
-??? README.md                # Documentation
+├── Form1.vb (COMIDAS1)      # Main screen - Table management
+├── Form2.vb (COMIDAS2)      # Order taking screen
+├── Form3.vb (COMIDAS3)      # Billing screen
+├── My Project/              # Application configuration
+?   ├── Application.myapp
+?   ├── Application.Designer.vb
+├── fast-food.vbproj         # Project file
+├── fast-food.sln            # Visual Studio solution
+├── README.md                # Documentation
 ```
 
-## ?? How to Use
+## 🚀 How to Use
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ fast-food/
 - Confirm the transaction
 - The table will be automatically released
 
-## ?? Workflow
+## 🔄 Workflow
 
 ```mermaid
 graph LR
@@ -119,7 +119,7 @@ graph LR
     F --> A
 ```
 
-## ?? Screenshots
+## 📸 Screenshots
 
 ### Main Screen - Table Management
 Manages up to 9 tables with visual availability indicators.
@@ -146,19 +146,19 @@ dotnet build fast-food.sln --configuration Release
 dotnet run --project fast-food.vbproj
 ```
 
-## ?? Technical Notes
+## 📝 Technical Notes
 
 - **Namespace**: `fast_food`
 - **Main Form**: `COMIDAS1`
 - **Storage**: Orders are stored in a two-dimensional array in memory
 - **Persistence**: Data is not saved when closing the application
 
-## ?? Known Issues
+## ⚠️ Known Issues
 
 - The project has 2 minor warnings related to functions that don't return values on all code paths
 - Data does not persist between application sessions
 
-## ?? Contributing
+## 🤝 Contributing
 
 Contributions are welcome. For major changes:
 
@@ -168,7 +168,7 @@ Contributions are welcome. For major changes:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## ?? License
+## 📄 License
 
 This project is under the MIT License. See the `LICENSE` file for more details.
 
@@ -177,10 +177,10 @@ This project is under the MIT License. See the `LICENSE` file for more details.
 **fawer5dev**
 - GitHub: [@fawer5dev](https://github.com/fawer5dev)
 
-## ?? Support
+## 💬 Support
 
 If you have any questions or issues, please open an issue on the GitHub repository.
 
 ---
 
-? If this project has been useful to you, please consider giving it a star on GitHub!
+⭐ If this project has been useful to you, please consider giving it a star on GitHub!
