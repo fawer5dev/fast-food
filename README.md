@@ -37,7 +37,7 @@ Order management system for fast food restaurants developed in Visual Basic .NET
 - **Non-Returnable 600ml** - $1,000
 - **7 Ounce Cup** - $700
 
-## ??? Technologies Used
+## ?? Technologies Used
 
 - **Language**: Visual Basic .NET
 - **Framework**: .NET 8.0
@@ -130,7 +130,7 @@ Intuitive interface for selecting menu items.
 ### Billing Screen
 Displays order summary and total amount to pay.
 
-## ??? Building from Source
+## ?? Building from Source
 
 ```bash
 # Restore dependencies
@@ -172,7 +172,7 @@ Contributions are welcome. For major changes:
 
 This project is under the MIT License. See the `LICENSE` file for more details.
 
-## ????? Author
+## ?? Author
 
 **fawer5dev**
 - GitHub: [@fawer5dev](https://github.com/fawer5dev)
