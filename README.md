@@ -52,8 +52,8 @@ fast-food/
 ├── Form2.vb (COMIDAS2)      # Order taking screen
 ├── Form3.vb (COMIDAS3)      # Billing screen
 ├── My Project/              # Application configuration
-?   ├── Application.myapp
-?   ├── Application.Designer.vb
+│   ├── Application.myapp
+│   ├── Application.Designer.vb
 ├── fast-food.vbproj         # Project file
 ├── fast-food.sln            # Visual Studio solution
 ├── README.md                # Documentation
@@ -130,7 +130,7 @@ Intuitive interface for selecting menu items.
 ### Billing Screen
 Displays order summary and total amount to pay.
 
-## ?? Building from Source
+## 🔨 Building from Source
 
 ```bash
 # Restore dependencies
@@ -172,7 +172,7 @@ Contributions are welcome. For major changes:
 
 This project is under the MIT License. See the `LICENSE` file for more details.
 
-## ?? Author
+## 👤 Author
 
 **fawer5dev**
 - GitHub: [@fawer5dev](https://github.com/fawer5dev)
